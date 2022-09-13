@@ -72,6 +72,7 @@ body {
 .color {
     border: 2px solid tomato;
     background-color: rgb(206, 113, 132);
+    box-shadow: 4px 3px 5px grey;
 }
 
 /*3rd parts*/
@@ -97,6 +98,18 @@ body {
     padding-top: 40px;
     padding-left: 15px;
     padding-right: 11px;
+}
+
+.color-a {
+    background-color: darkgrey;
+}
+
+.color-b {
+    background-color: rgb(206, 184, 218);
+}
+
+.color-c {
+    background-color: rgb(226, 215, 218);
 }
 
 /*4rt parts*/
@@ -153,6 +166,7 @@ body {
     width: 50%;
     height: 80px;
     margin: 6% 30%;
+    margin-left: 203px;
     padding-top: 51px;
 }
 
@@ -164,4 +178,13 @@ footer {
     height: 135px;
     padding-top: 42px;
 
+}
+
+footer h2 {
+    font-family: ui-serif;
+    color: tomato;
+}
+
+footer p {
+    color: white;
 }
